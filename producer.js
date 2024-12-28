@@ -10,7 +10,7 @@ async function init() {
         messages:[
             {
                 partition: 0,
-                key: 'Location-update', 
+                key: 'location-update', 
                 value: JSON.stringify({name:'Vignesh',location:'NE'})
             }
         ]
